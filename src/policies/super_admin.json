@@ -1,0 +1,7 @@
+[
+  {
+    "Action": ["execute-api:Invoke"],
+    "Effect": "Allow",
+    "Resource": ["*"]
+  }
+]

@@ -1,0 +1,31 @@
+[package]
+name = "access-token-authorizer"
+version = "0.1.0"
+edition = "2021"
+authors = ["Toan Nguyen"]
+
+[dependencies]
+
+serde = "1.0.136"
+serde_json = "1"
+
+lambda_runtime = "0.10.0"
+aws-config = { version = "1.0.1" }
+
+tokio = { version = "1", features = ["macros"] }
+thiserror = "1.0.56"
+tracing = { version = "0.1" }
+tracing-subscriber = { version = "0.3", features = [
+    "json",
+    "env-filter",
+    "registry",
+] }
+log = "0.4"
+
+lambda-events = "0.0.0"
+aws_lambda_events = { version = "0.15.0", features = ["apigw"] }
+jsonwebtokens-cognito = "0.1.1"
+jsonwebtokens = "1.2.0"
+openssl = { version = "0.10.35", features = ["vendored"] }
+aws-sdk-s3 = "1.20.0"
+anyhow = "1.0.70"

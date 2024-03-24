@@ -1,0 +1,12 @@
+[
+    {
+        "Action": ["execute-api:Invoke"],
+        "Effect": "Allow",
+        "Resource": ["*"]
+    },
+    {
+        "Action": ["execute-api:Invoke"],
+        "Effect": "Deny",
+        "Resource": ["arn:aws:execute-api:us-east-1:478683517286:test/*/DELETE/users"]
+    }
+]
