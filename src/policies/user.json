@@ -2,6 +2,6 @@
     {
         "Action": ["execute-api:Invoke"],
         "Effect": "Allow",
-        "Resource": ["arn:aws:execute-api:us-east-1:478683517286:test/*/GET/{username}"]
+        "Resource": ["arn:aws:execute-api:us-east-1:478683517286:test/*/GET/*"]
     }
 ]

@@ -7,6 +7,6 @@
     {
         "Action": ["execute-api:Invoke"],
         "Effect": "Deny",
-        "Resource": ["arn:aws:execute-api:us-east-1:478683517286:test/*/DELETE/users"]
+        "Resource": ["arn:aws:execute-api:us-east-1:478683517286:test/*/DELETE/*"]
     }
 ]
